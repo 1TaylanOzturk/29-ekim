@@ -1,0 +1,88 @@
+.title {
+  text-align: center;
+  font-family: "Festive", cursive;
+  font-size: 200px;
+  background-color: #e40310;
+  padding-top: 200px;
+}
+
+.audio-player {
+  display: block;
+  width: 70%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.text {
+  font-size: 20px;
+  color: orange;
+  font-weight: 500;
+}
+
+.image {
+  width: 100%;
+  height: 549.9px;
+  object-fit: cover;
+}
+
+.carousel {
+  width: 780px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.card-adage {
+  min-width: 250px;
+  min-height: 100px;
+  width: 50%;
+  height: auto;
+  color: white;
+  background-color: black;
+  margin: 0 auto 1rem auto;
+  padding: 20px;
+  border-radius: 3px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 582px) {
+  .title {
+    font-size: 155px;
+  }
+}
+
+@media only screen and (max-width: 458px) {
+  .title {
+    font-size: 130px;
+  }
+}
+
+@media only screen and (max-width: 340px) {
+    .title {
+      font-size: 120px;
+    }
+  }
+
+@media only screen and (max-width: 784px) {
+  .carousel {
+    width: 500px !important;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .carousel {
+    width: 400px !important;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .carousel {
+    width: 320px !important;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .carousel {
+    width: 250px !important;
+  }
+}
