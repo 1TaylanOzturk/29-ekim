@@ -1,5 +1,4 @@
 import "./styles/App.css";
-import Layout from "./components/Layout";
 import { ADAGES, imgSources } from "./source";
 import Carousel from "nuka-carousel";
 import Audio from "./audios/audio.mp3";
@@ -27,7 +26,7 @@ function App() {
   adages = shuffle(adages);
 
   return (
-    <Layout>
+    <>
       <div className="title mb-5" style={{ height: window.innerHeight }}>
         29 Ekim
       </div>
@@ -61,7 +60,7 @@ function App() {
           controls
         />
       </div>
-    </Layout>
+    </>
   );
 }
 
