@@ -1,6 +1,6 @@
 # 29 October Project
 
-This project contains a React App built for 29 October.
+This project contains a React App built for 29 October Turkish Republic Day.
 
 ## Technologies
 
