@@ -1,6 +1,6 @@
-# 29 October Project
+# 29 Ekim Projesi
 
-This project contains a React App built for 29 October Turkish Republic Day.
+Bu proje 29 Ekim Cumhuriyet Bayramı için yapılmış bir React aplikasyonunu içerir.
 
 ## Technologies
 
