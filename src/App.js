@@ -31,7 +31,7 @@ function App() {
         29 Ekim
       </div>
       <div>
-        <Carousel className="carousel mb-5" autoplayInterval={3000} autoplay>
+        <Carousel className="carousel mb-5" autoplayInterval={8000} autoplay>
           {imgSources.map((url, index) => {
             return (
               <div key={index}>
